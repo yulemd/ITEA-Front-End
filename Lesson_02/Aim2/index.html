@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Приціл</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+	<style>
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			font-family: 'Open Sans', sans-serif; 
+			color: black;
+			background-color: skyblue;
+		}
+
+		/* Варіант з використанням Flex */
+		/*.container {
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+		}
+		.img {
+			width: 100vw;
+			height: 100vh;
+		}*/
+
+		/* Варіант без використання Flex */
+		.container {
+			position: relative;	
+		}
+		.img {
+			display: inline-block;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 100vw;
+			height: 100vh;
+			margin: 0 0 0 -50%;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<img src="img/4.jpg" alt="aim" class="img">
+	</div>
+</body>
+</html>

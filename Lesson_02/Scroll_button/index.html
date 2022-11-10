@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Андрій Атанасович Мельник</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+	<style>
+		* {	
+			scroll-behavior: smooth;
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body {
+			font-family: 'Open Sans', sans-serif;
+			color: rgba(255, 255, 255, 0.96);
+		}
+		.radius {
+			border-radius: 16px;
+		}
+		.wall {
+			background-color: rgba(238, 20, 20, 0.3);
+		}
+		p {
+			margin: 0;
+		}
+		.container {
+			position: relative;
+			margin: auto;
+			padding: 8px 0;
+			background: url(./img/img2.png) no-repeat;
+			background-size: cover;
+		}
+		.name {
+			max-width: 920px;
+			margin: auto;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 10vh;
+		}
+		h1 {
+			font-size: 6vmin;
+			text-transform: uppercase;
+			letter-spacing: 3px;
+			--hue: 0;
+			-webkit-text-fill-color: transparent; 
+			-webkit-text-stroke-width: 3px;
+			-webkit-text-stroke-color: hsl(var(--hue), 50%, 95%);
+			text-shadow:
+				0 0 15px hsl(var(--hue), 60%, 90%, .80),
+				0 0 15px hsl(var(--hue), 70%, 80%, .85),
+				0 0 30px hsl(var(--hue), 80%, 70%, .90),
+				0 0 40px hsl(var(--hue), 90%, 60%, .95),
+				0 0 60px hsl(var(--hue), 100%, 50%, 1)
+		}
+		.content {
+			display: flex;
+			max-width: 920px;
+			margin: auto;
+			justify-content: space-between;
+		}
+		.side {
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			max-width: 28%;
+		}
+		.foto {
+			margin-top: 12px;
+			max-width: 320px;
+		}
+		.short-text {
+			font-size: 16px;
+			margin-top: 20px;
+			text-align: center;
+			padding: 4px;
+			font-style: italic;
+		}
+		button {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			margin-top: 12px;
+			border: solid 4px rgba(238, 20, 20, 0.6);
+			background-color: rgba(0, 0, 0, 0.5);
+			cursor: pointer;
+		}
+		button:hover {
+			background-color: rgba(238, 20, 20, 0.3);
+			border: solid 3px rgba(0, 0, 0, 0.658);
+			box-shadow: 1px 1px rgba(255, 255, 255, 0.911);
+			transition: all 300ms ease;
+		}
+		a {
+			font-size: 16px;
+			text-decoration: none;
+			color: rgba(255, 255, 255, 0.96);
+		}
+		.main {
+			font-size: 14px;
+			margin-top: 12px;
+			max-width: 68%;
+			padding: 14px;
+			text-align: left;
+		}
+		.anchor {
+			width: 80px; 	
+		}
+		.scroll-top {
+			position: absolute; /* relative to its positioned <main> parent */
+			top: 110vh; /* starts below the bottom of the screen */
+			bottom: 1rem; /* stops scrolling before the end */
+			right: 1rem; /* offset from right hand side */
+		}
+
+		.scroll-top__link {
+			position: sticky; /* 'relative' until element reaches... */
+			top: 95vh; /* 90% viewport height from the top, when it becomes 'fixed' - until its container toggles it back to 'relative' */
+		}
+	</style>
+</head>
+
+<body>
+	<a name="Start"></a>
+	<div class="container">
+		<div class="name radius wall"><h1>Андрій Атанасович Мельник</h1></div>
+		<div class="content radius">
+			<div class="side radius">
+				<img src="./img/foto.jpg" alt=foto" class="foto radius">
+				<div class="short-text radius wall">
+					<p>12 грудня 1890, Воля Якубова, Дрогобицький повіт, Королівство Галичини та Володимирії, Австро-Угорщина, нині Дрогобицький район, 
+						Львівська область, Україна<br> — <br>1 листопада 1964, Кельн, ФРН</p>
+				</div>
+				<button class="radius"><a href="https://uk.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA_%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9_%D0%90%D1%82%D0%B0%D0%BD%D0%B0%D1%81%D0%BE%D0%B2%D0%B8%D1%87" target="_blank">Дізнатись більше про <br>Андрія Мельника</a></button>
+			</div>
+			<div class="main radius wall">
+				<p><b>Український державний, військовий та політичний діяч. Полковник армії УНР, Голова Проводу Українських Націоналістів, другий голова 
+					ОУН (1938–1964). Один з найближчих соратників полковника та засновника ОУН Євгена Коновальця.</b><br><br>
+
+					Один з організаторів (співзасновників) Січових Стрільців та його проводу Стрілецької Ради, та Української Військової Організації. 
+					Під час створення ОУН перебував у Львові, під постійним наглядом польської таємної поліції, також мав заборону від польської окупаційної 
+					влади покидати Львів. Через що Андрій Мельник не зміг взяти участь у першому конгресі українських націоналістів у Відні. Проте навіть при 
+					цьому, члени ПУН та провідні діячі ОУН вважали та відносили Андрія Мельника до співзасновників ОУН. Один з організаторів вбиства міністра 
+					внутрішніх справ Польщі Броніслава Перацького.<br><br>
+					
+					Один з ініціаторів проголошення відновлення незалежності Української Держави у Києві. Саме тому, похідні група ОУН 5 жовтня 1941 року 
+					утворили Українську Національну Раду (УНРада) у Києві 1941—1942, яка проголосила відновлення незалежності Української Держави.<br><br>
+					
+					Один з ініціаторів об'єднання трьох основних українських державних центрів — Львівської (Українська Національна Рада у Львові) та Київської 
+					УНРади (Українська Національна Рада у Києві 1941—1942), а також Центральної Народної Ради Карпатської України. Тим самим було створено 
+					Всеукраїнську Національну Раду (ВУНР).<br><br>
+					
+					Андрій Мельник, разом з Степаном Бандерою, Андрієм Лівицьким, та Павлом Скоропадським став співзасновником Українського Національного 
+					Комітету.<br><br>
+					
+					Після завершення другої світової війни, був ініціатором консолідації українських самостійницьких сил, що призвело до створення Української 
+					національної ради.<br><br>
+					
+					Був ініціатором створення та ідеолог надпартійного Світового Конгресу Вільних Українців.<br><br>
+					
+					Багатолітній в'язень польських тюрем, в'язень німецького концтабору Заксенгаузен.<br><br>
+					
+					Заборонив членам ОУН мститися членам ОУН(б), за фізичне знищення членів ОУН.<br><br>
+					
+					Послідовний прихильник відновлення незалежності Української Держави, на всіх її етнічних землях. Відповідно до українського 
+					законодавства може бути зарахований до борців за незалежність України у ХХ сторіччі.<br><br>
+					Іменем Андрія Мельника були названі вулиці у декількох містах України, зокрема у Дрогобичі, Івано-Франківську, Львові, Рівному, 
+					Білій Церкві та Черкасах.<br><br>
+
+					У відділі історії музею «Дрогобиччина» створено «Меморіальну кімнату Андрія Мельника», яка присвячена життю та діяльності Голови Проводу 
+					(від особистих речей до тематичної літератури).<br><br>
+
+					Дев'ятого квітня 2015 року, Верховна Рада України ухвалила Закон України «Про правовий статус та вшанування пам'яті борців за незалежність 
+					України у XX столітті» в якому визнала учасників УВО, ОУН, та багатьох інших формувань, борцями за незалежність України.<br><br>
+
+					15 серпня 2022 року Голова ОУН Богдан Червак зареєстрував петицію до Президента України в якій пропонує присвоїти Національному 
+					університету оборони України ім'я Євгена Коновальця, а Національній академії внутрішніх справ ім'я Андрія Мельника.<br><br>
+					Андрій Мельник є одним з героїв роману «Країна Ірредента» Романа Іваничука.	<br><br>
+					В Україні існують лише два пам'ятники Мельнику. З 23 липня 2006 р. у рідному селі Воля Якубова Дрогобицького району та від 17 грудня 2017 року 
+					у м. Івано-Франківськ.			
+					</p>
+			</div>
+		</div>
+		<div class="scroll-top">
+			<a class="scroll-top__link" href="#Start"><img src="img/anchor.png" alt="page-up-img" class="anchor"></a>
+		</div>
+	</div>
+</body>
+</html>
