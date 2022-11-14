@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: url(../img/dz_banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.banner {
+	background-color: rgba(0, 0, 0, 0.2);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.banner__info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 32vh;
+	width: 50%;
+	margin: 32vh 0 0 0;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+}
+.banner__title {
+	font-family: 'Fredoka One', cursive;
+	font-size: 56px;
+}
+.banner__text {
+	font-size: 20px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
+	margin: 5vh 0;
+}
+.banner__btn {
+	display: block;
+	align-self: center;
+	width: 200px;
+	background: rgb(37, 39, 37);
+	border: none;
+	padding: 16px 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.banner__btn:hover {
+	background: rgb(9, 90, 66);
+}
+.banner__btn a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+}

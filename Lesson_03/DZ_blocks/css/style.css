@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: khaki;
+}
+.container{
+    position: relative;
+    width: 80vw;
+    margin: auto;
+    margin-top: 12px;
+    text-align: center;
+}
+.border{
+    border: 1px solid black;
+}
+.baseSize{
+    width: 24.4%;
+    height: 12vh;
+}
+.doubledWidth{
+    width: 43.9%;
+}
+.bigger{
+    width: 31.7%;
+}
+.largest{
+    width: 68.3%;
+}
+.theLargest{
+    width: 75.6%;
+}
+.oneAndHalfHeight{
+    height: 18vh;
+}
+.twoAndHalfHeight{
+    height: 30vh;
+}
+.fourHeight{
+    height: 48vh;
+}
+.sixHeight{
+    height: 72vh;
+}
+.topLeft{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.topRight{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.bottomLeft{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.bottomRight{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.moved{
+    margin-left: 24.4%;
+}
+.lineHeight1{
+    line-height: 12vh;
+}
+.lineHeight1-5{
+    line-height: 18vh;
+}
+.lineHeight2-5{
+    line-height: 30vh;
+}
+.lineHeight4{
+    line-height: 48vh;
+}
+.lineHeight6{
+    line-height: 72vh;
+}

@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: beige;
+}
+.menu {
+	width: 94vw;
+	margin: auto;
+	color: rgb(98, 97, 163);
+}
+.menu__waveLine {
+	height: 16px;
+	width: 94vw;
+	background: url(../img/wave1.png);
+	background-repeat: repeat-x;
+	margin: 18px 0 16px 0;
+}
+.menu__title {
+	font-family: 'Fredoka One', cursive;
+	font-size: 36px;
+	margin: 36px 0 20px 0;
+	color: black;
+}
+.menu__list {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 16px;
+}
+.menu__listImg {
+	margin-right: 3vw;
+}
+img {
+	width: 16vw;
+	height: 24vh;
+	border-radius: 16px;
+}
+.menu__listDesc {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.menu__listDescTitle {
+	display: flex;
+	justify-content: space-between;
+	color: peru;
+}
+.menu__listDescTitleName {
+	font-size: 5vh;
+	white-space: nowrap;
+}
+.menu__listDescTitleDots {
+	width: 85%;
+	height: 38px;
+	margin: 0 4px;
+	background: url(../img/dots.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.menu__listDescTitlePrice {
+	font-size: 5vh;
+	line-height: 48px;
+	text-align: end;
+	white-space: nowrap;
+}
+.menu__listDescText {
+	font-size: 3.2vh;
+	margin-top: 4vh;
+}
